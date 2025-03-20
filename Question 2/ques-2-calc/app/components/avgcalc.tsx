@@ -61,10 +61,10 @@ export default function AvgCalculator() {
         onChange={(e) => setSelectedType(e.target.value)}
         className="border p-2 mb-4 w-full"
       >
-        <option value="p">Prime Numbers</option>
-        <option value="f">Fibonacci Numbers</option>
-        <option value="e">Even Numbers</option>
-        <option value="r">Random Numbers</option>
+        <option key="p" value="p">Prime Numbers</option>
+        <option key="f" value="f">Fibonacci Numbers</option>
+        <option key="e" value="e">Even Numbers</option>
+        <option key="r" value="r">Random Numbers</option>
       </select>
 
       <button
